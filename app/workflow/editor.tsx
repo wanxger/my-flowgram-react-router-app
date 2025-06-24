@@ -8,7 +8,6 @@ import { Minimap } from "./components/minimap";
 import { NodeAddPanel } from "./components/node-add-panel";
 import { Tools } from "./components/tools";
 import { useEditorProps } from "./hooks/use-editor-props";
-import "./index.css";
 
 export const Editor = () => {
   const editorProps = useEditorProps();
